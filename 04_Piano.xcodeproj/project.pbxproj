@@ -10,7 +10,6 @@
 		4D3D095521C5B1A500850A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D095421C5B1A500850A17 /* AppDelegate.swift */; };
 		4D3D095721C5B1A500850A17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D095621C5B1A500850A17 /* ViewController.swift */; };
 		4D3D095A21C5B1A500850A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D095821C5B1A500850A17 /* Main.storyboard */; };
-		4D3D095D21C5B1A500850A17 /* _4_Piano.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D095B21C5B1A500850A17 /* _4_Piano.xcdatamodeld */; };
 		4D3D095F21C5B1A700850A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D095E21C5B1A700850A17 /* Assets.xcassets */; };
 		4D3D096221C5B1A700850A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D096021C5B1A700850A17 /* LaunchScreen.storyboard */; };
 		4D3D096A21C5B49E00850A17 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D096921C5B49E00850A17 /* Extensions.swift */; };
@@ -21,7 +20,6 @@
 		4D3D095421C5B1A500850A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D3D095621C5B1A500850A17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D3D095921C5B1A500850A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D3D095C21C5B1A500850A17 /* _4_Piano.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _4_Piano.xcdatamodel; sourceTree = "<group>"; };
 		4D3D095E21C5B1A700850A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D3D096121C5B1A700850A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D3D096321C5B1A700850A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 				4D3D095E21C5B1A700850A17 /* Assets.xcassets */,
 				4D3D096021C5B1A700850A17 /* LaunchScreen.storyboard */,
 				4D3D096321C5B1A700850A17 /* Info.plist */,
-				4D3D095B21C5B1A500850A17 /* _4_Piano.xcdatamodeld */,
 				4D3D096921C5B49E00850A17 /* Extensions.swift */,
 			);
 			path = 04_Piano;
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3D095D21C5B1A500850A17 /* _4_Piano.xcdatamodeld in Sources */,
 				4D3D095721C5B1A500850A17 /* ViewController.swift in Sources */,
 				4D3D095521C5B1A500850A17 /* AppDelegate.swift in Sources */,
 				4D3D096A21C5B49E00850A17 /* Extensions.swift in Sources */,
@@ -344,19 +340,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4D3D095B21C5B1A500850A17 /* _4_Piano.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4D3D095C21C5B1A500850A17 /* _4_Piano.xcdatamodel */,
-			);
-			currentVersion = 4D3D095C21C5B1A500850A17 /* _4_Piano.xcdatamodel */;
-			path = _4_Piano.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4D3D094921C5B1A500850A17 /* Project object */;
 }
