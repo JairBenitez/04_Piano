@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_4_Piano" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbF-le-QJh">
-                                <rect key="frame" x="16" y="28" width="343" height="72"/>
+                                <rect key="frame" x="16" y="44.000000000000007" width="343" height="83.666666666666686"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -34,7 +34,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ao-hf-KaP">
-                                <rect key="frame" x="16" y="108" width="343" height="72"/>
+                                <rect key="frame" x="16" y="135.66666666666666" width="343" height="84"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -49,7 +49,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csb-xB-8K5">
-                                <rect key="frame" x="16" y="188" width="343" height="71.5"/>
+                                <rect key="frame" x="16" y="227.66666666666666" width="343" height="83.666666666666657"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -64,7 +64,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYk-Yh-Dn8">
-                                <rect key="frame" x="16" y="267.5" width="343" height="72"/>
+                                <rect key="frame" x="16" y="319.33333333333331" width="343" height="83.666666666666686"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -79,7 +79,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2KP-R7-i34">
-                                <rect key="frame" x="16" y="347.5" width="343" height="72"/>
+                                <rect key="frame" x="16" y="411" width="343" height="83.666666666666686"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -94,7 +94,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBW-Da-5su">
-                                <rect key="frame" x="16" y="427.5" width="343" height="72"/>
+                                <rect key="frame" x="16" y="502.66666666666674" width="343" height="84"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -109,7 +109,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Hr-fW-c8t">
-                                <rect key="frame" x="16" y="507.5" width="343" height="71.5"/>
+                                <rect key="frame" x="16" y="594.66666666666663" width="343" height="83.666666666666629"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -124,8 +124,83 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMn-vX-kqn">
-                                <rect key="frame" x="16" y="587" width="343" height="72"/>
+                                <rect key="frame" x="16" y="686.33333333333337" width="343" height="83.666666666666629"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5k-ys-w0d">
+                                <rect key="frame" x="136" y="105.99999999999999" width="223" height="50.333333333333329"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRm-S9-bzv">
+                                <rect key="frame" x="136" y="289" width="223" height="50.333333333333314"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoE-by-bWw">
+                                <rect key="frame" x="136" y="381" width="223" height="50.333333333333314"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cix-Js-nzT">
+                                <rect key="frame" x="136" y="566" width="223" height="50"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6RO-eJ-xoY">
+                                <rect key="frame" x="136" y="658" width="223" height="50.333333333333371"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="2"/>
@@ -143,36 +218,56 @@
                         <constraints>
                             <constraint firstItem="5Hr-fW-c8t" firstAttribute="top" secondItem="jBW-Da-5su" secondAttribute="bottom" constant="8" id="05x-fa-djg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PbF-le-QJh" secondAttribute="trailing" constant="16" id="0JN-1s-0PD"/>
+                            <constraint firstItem="6RO-eJ-xoY" firstAttribute="height" secondItem="5Hr-fW-c8t" secondAttribute="height" multiplier="0.6" id="20x-Ud-SZV"/>
+                            <constraint firstItem="6RO-eJ-xoY" firstAttribute="width" secondItem="5Hr-fW-c8t" secondAttribute="width" multiplier="0.65" id="2aJ-Iu-BS0"/>
                             <constraint firstItem="csb-xB-8K5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4cD-yj-BNQ"/>
+                            <constraint firstItem="Cix-Js-nzT" firstAttribute="height" secondItem="jBW-Da-5su" secondAttribute="height" multiplier="0.6" id="71k-pv-Zjt"/>
                             <constraint firstItem="0ao-hf-KaP" firstAttribute="top" secondItem="PbF-le-QJh" secondAttribute="bottom" constant="8" id="9Ay-nl-sJn"/>
-                            <constraint firstItem="PbF-le-QJh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="9gz-RH-SrB"/>
+                            <constraint firstItem="PbF-le-QJh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9gz-RH-SrB"/>
+                            <constraint firstItem="P5k-ys-w0d" firstAttribute="top" secondItem="PbF-le-QJh" secondAttribute="bottom" constant="-21.666666666666686" id="9nX-oO-XIl"/>
                             <constraint firstItem="jBW-Da-5su" firstAttribute="height" secondItem="PbF-le-QJh" secondAttribute="height" id="Aq1-Mt-4Gz"/>
+                            <constraint firstItem="6RO-eJ-xoY" firstAttribute="top" secondItem="5Hr-fW-c8t" secondAttribute="bottom" constant="-20.333333333333258" id="DHU-kf-LWX"/>
                             <constraint firstItem="2KP-R7-i34" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Dx1-qb-9cl"/>
                             <constraint firstItem="csb-xB-8K5" firstAttribute="height" secondItem="PbF-le-QJh" secondAttribute="height" id="GLk-Ij-sHQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bMn-vX-kqn" secondAttribute="trailing" constant="16" id="Jnb-jU-rSW"/>
                             <constraint firstItem="jBW-Da-5su" firstAttribute="top" secondItem="2KP-R7-i34" secondAttribute="bottom" constant="8" id="KHV-kT-aAr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EoE-by-bWw" secondAttribute="trailing" constant="16" id="KHh-jA-5dH"/>
+                            <constraint firstItem="EoE-by-bWw" firstAttribute="width" secondItem="TYk-Yh-Dn8" secondAttribute="width" multiplier="0.65" id="LzW-ms-COQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2KP-R7-i34" secondAttribute="trailing" constant="16" id="MX5-oA-kEQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0ao-hf-KaP" secondAttribute="trailing" constant="16" id="Niy-lg-J1S"/>
+                            <constraint firstItem="Cix-Js-nzT" firstAttribute="top" secondItem="jBW-Da-5su" secondAttribute="bottom" constant="-20.666666666666742" id="Oxx-ii-zav"/>
                             <constraint firstItem="2KP-R7-i34" firstAttribute="top" secondItem="TYk-Yh-Dn8" secondAttribute="bottom" constant="8" id="Pc6-1B-V1p"/>
+                            <constraint firstItem="P5k-ys-w0d" firstAttribute="height" secondItem="PbF-le-QJh" secondAttribute="height" multiplier="0.6" id="QbN-8x-EY3"/>
+                            <constraint firstItem="yRm-S9-bzv" firstAttribute="top" secondItem="csb-xB-8K5" secondAttribute="bottom" constant="-22.333333333333314" id="SVz-16-6Te"/>
                             <constraint firstItem="bMn-vX-kqn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WVI-F8-0Eu"/>
                             <constraint firstItem="5Hr-fW-c8t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Y2z-ak-sAI"/>
                             <constraint firstItem="0ao-hf-KaP" firstAttribute="height" secondItem="PbF-le-QJh" secondAttribute="height" id="YV9-kc-ndW"/>
+                            <constraint firstItem="P5k-ys-w0d" firstAttribute="width" secondItem="PbF-le-QJh" secondAttribute="width" multiplier="0.65" id="Zgv-K5-WtA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6RO-eJ-xoY" secondAttribute="trailing" constant="16" id="Zuf-A4-S03"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Hr-fW-c8t" secondAttribute="trailing" constant="16" id="a6N-9S-0hi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cix-Js-nzT" secondAttribute="trailing" constant="16" id="alP-u8-ryL"/>
                             <constraint firstItem="5Hr-fW-c8t" firstAttribute="height" secondItem="PbF-le-QJh" secondAttribute="height" id="atM-vY-6uS"/>
                             <constraint firstItem="2KP-R7-i34" firstAttribute="height" secondItem="PbF-le-QJh" secondAttribute="height" id="bu4-3A-WyD"/>
+                            <constraint firstItem="yRm-S9-bzv" firstAttribute="height" secondItem="csb-xB-8K5" secondAttribute="height" multiplier="0.6" id="cmg-td-VgJ"/>
                             <constraint firstItem="bMn-vX-kqn" firstAttribute="height" secondItem="PbF-le-QJh" secondAttribute="height" id="d3v-5J-8hQ"/>
                             <constraint firstItem="jBW-Da-5su" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="eGO-aL-5AF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="csb-xB-8K5" secondAttribute="trailing" constant="16" id="exq-Dc-BSs"/>
                             <constraint firstItem="bMn-vX-kqn" firstAttribute="top" secondItem="5Hr-fW-c8t" secondAttribute="bottom" constant="8" id="gad-85-aOH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P5k-ys-w0d" secondAttribute="trailing" constant="16" id="i08-yC-wZc"/>
                             <constraint firstItem="PbF-le-QJh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="k7D-tI-4wT"/>
+                            <constraint firstItem="yRm-S9-bzv" firstAttribute="width" secondItem="csb-xB-8K5" secondAttribute="width" multiplier="0.65" id="kLD-pj-FBC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yRm-S9-bzv" secondAttribute="trailing" constant="16" id="kh0-g9-dzm"/>
+                            <constraint firstItem="EoE-by-bWw" firstAttribute="height" secondItem="TYk-Yh-Dn8" secondAttribute="height" multiplier="0.6" id="l75-jz-uhX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TYk-Yh-Dn8" secondAttribute="trailing" constant="16" id="lD9-Kl-FJQ"/>
                             <constraint firstItem="0ao-hf-KaP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="oLP-yX-P4T"/>
                             <constraint firstItem="TYk-Yh-Dn8" firstAttribute="top" secondItem="csb-xB-8K5" secondAttribute="bottom" constant="8" id="oor-Sx-dbn"/>
                             <constraint firstItem="TYk-Yh-Dn8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qCh-Vj-wwo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bMn-vX-kqn" secondAttribute="bottom" constant="8" id="qEO-4l-dS4"/>
+                            <constraint firstItem="Cix-Js-nzT" firstAttribute="width" secondItem="jBW-Da-5su" secondAttribute="width" multiplier="0.65" id="quu-au-4WW"/>
                             <constraint firstItem="csb-xB-8K5" firstAttribute="top" secondItem="0ao-hf-KaP" secondAttribute="bottom" constant="8" id="ssD-aw-oGF"/>
                             <constraint firstItem="TYk-Yh-Dn8" firstAttribute="height" secondItem="PbF-le-QJh" secondAttribute="height" id="tQP-5m-L3a"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jBW-Da-5su" secondAttribute="trailing" constant="16" id="vTm-eQ-VOt"/>
+                            <constraint firstItem="EoE-by-bWw" firstAttribute="top" secondItem="TYk-Yh-Dn8" secondAttribute="bottom" constant="-22" id="vq5-02-UUb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
