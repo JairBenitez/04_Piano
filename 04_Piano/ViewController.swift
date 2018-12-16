@@ -28,6 +28,14 @@ class ViewController: UIViewController {
         
         if let soundURL : URL = Bundle.main.url(forResource: filename, withExtension: "mp3") {
             print( soundURL)
+            
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: soundURL)
+            } catch {
+                print( error )
+            }
+         
+            audioPlayer.play()
         }
         
         
